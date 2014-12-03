@@ -43,6 +43,13 @@
 <?php if($_menu): ?>
 <div class="nav-container">
     <ul id="nav">
+        <!-- New Home Link -->
+        <li class="home"><a href="<?php echo $this->getUrl('')?>">
+                <?php echo $this->__('Home') ?>
+            </a>
+        </li>
+        <!-- New Home Link -->
+                        <?php echo $this->__('Home') ?>
         <?php echo $_menu ?>
     </ul>
 </div>
